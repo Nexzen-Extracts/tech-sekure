@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Techsekure – Printer Drivers & Assistance</title>
+   <script src="//code.jivosite.com/widget/CXmX6RkZyD" async></script>
+<link rel="icon" href="fav.png" type="image/x-icon" />
+
+  
+
+  <!-- Bootstrap for grid layout -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body style="margin:0; padding:0; background:#f5f5f5; font-family:Arial, sans-serif;">
+
+
+<!-- ====================== HEADER ====================== -->
+<header style="background:#222529; padding:15px 0; position:sticky; top:0; z-index:999;">
+  <div class="container" style="max-width:1140px; display:flex; align-items:center; justify-content:space-between;">
+
+        <!-- LOGO (White default + gradient hover) -->
+    <a href="/index.html" id="logo"
+   style="display:flex; align-items:center; text-decoration:none;">
+  
+  <img src="./images/logo.png"
+       alt="Techsekure Logo"
+       style="
+         height:40px;
+         width:auto;
+         display:block;
+         transition:0.3s;
+       ">
+</a>
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const logo = document.getElementById("logo");
+
+        logo.onmouseover = () => {
+          logo.style.background = "linear-gradient(90deg,#00C6FF,#0072FF)";
+          logo.style.webkitBackgroundClip = "text";
+          logo.style.color = "transparent";
+        };
+
+        logo.onmouseout = () => {
+          logo.style.background = "none";
+          logo.style.color = "white";
+        };
+      });
+    </script>
+
+    <!-- NAV MENU -->
+    <nav class="d-none d-lg-flex" style="align-items:center;">
+
+      <a href="/index.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">Home</a>
+
+      <a href="/about.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">About</a>
+
+      <a href="/services.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">Services</a>
+
+      <a href="/blogs.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">Blogs</a>
+
+      <a href="/contacts.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">Contact</a>
+
+      <!-- PHONE -->
+      <span style="color:#00C6FF; font-weight:600; margin-left:22px;">+1 (877) 496-7174
+</span>
+    </nav>
+
+    <!-- MOBILE MENU ICON -->
+    <div class="d-lg-none" onclick="toggleMenu()" style="font-size:28px; color:white; cursor:pointer;">☰</div>
+
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" style="display:none; background:#1b1d20; padding:15px;">
+    <a href="/index.html" style="display:block; padding:10px; color:#ddd;">Home</a>
+    <a href="/about.html" style="display:block; padding:10px; color:#ddd;">About</a>
+    <a href="/services.html" style="display:block; padding:10px; color:#ddd;">Services</a>
+    <a href="/blogs.html" style="display:block; padding:10px; color:#ddd;">Blogs</a>
+    <a href="/contacts.html" style="display:block; padding:10px; color:#ddd;">Contact</a>
+
+    <div style="margin-top:10px; color:#00C6FF; font-weight:600;">+1 (877) 496-7174
+</div>
+  </div>
+</header>
+
+<script>
+  function toggleMenu(){
+    let m = document.getElementById("mobileMenu");
+    m.style.display = (m.style.display === "block") ? "none" : "block";
+  }
+</script>
+
+
+
+<!-- =========================================================
+   BLOG HERO
+========================================================= -->
+<section style="
+  padding:80px 20px;
+  text-align:center;
+  background:linear-gradient(135deg,#1a1f35,#0b0e16);
+  color:white;
+  font-family:Arial, sans-serif;
+">
+  <h1 style="font-size:46px; font-weight:900; margin-bottom:12px;">
+    Our Latest Tech Insights
+  </h1>
+
+  <p style="
+    font-size:18px;
+    max-width:750px;
+    margin:0 auto;
+    color:#cfd2e3;
+    line-height:1.6;
+  ">
+    Explore expert guides, troubleshooting tutorials, cybersecurity tips, and device optimization articles.
+  </p>
+</section>
+
+
+
+
+<!-- =========================================================
+   SEARCH + FILTER OPTIONS
+========================================================= -->
+<div style="
+  max-width:1200px;
+  margin:40px auto 20px;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:16px;
+  padding:0 20px;
+  font-family:Arial, sans-serif;
+">
+
+  <!-- Search Bar -->
+  <input 
+    id="searchBar"
+    onkeyup="searchBlogs()"
+    placeholder="Search blogs..."
+    style="
+      flex:1 1 300px;
+      max-width:450px;
+      padding:14px 18px;
+      font-size:16px;
+      border-radius:14px;
+      border:1px solid #d7d9e1;
+      box-shadow:0 4px 12px rgba(0,0,0,0.05);
+    "
+  />
+
+  <!-- Filter Buttons -->
+  <button class="filter-btn active" onclick="filterBlogs('all')" 
+    style="padding:12px 22px; font-size:15px; border-radius:14px; font-weight:600; border:1px solid #d7d9e1; background:white; cursor:pointer;">
+    All
+  </button>
+  <button class="filter-btn" onclick="filterBlogs('troubleshooting')"
+    style="padding:12px 22px; font-size:15px; border-radius:14px; font-weight:600; border:1px solid #d7d9e1; background:white; cursor:pointer;">
+    Troubleshooting
+  </button>
+  <button class="filter-btn" onclick="filterBlogs('security')"
+    style="padding:12px 22px; font-size:15px; border-radius:14px; font-weight:600; border:1px solid #d7d9e1; background:white; cursor:pointer;">
+    Security
+  </button>
+  <button class="filter-btn" onclick="filterBlogs('printer')"
+    style="padding:12px 22px; font-size:15px; border-radius:14px; font-weight:600; border:1px solid #d7d9e1; background:white; cursor:pointer;">
+    Printer
+  </button>
+  <button class="filter-btn" onclick="filterBlogs('guides')"
+    style="padding:12px 22px; font-size:15px; border-radius:14px; font-weight:600; border:1px solid #d7d9e1; background:white; cursor:pointer;">
+    Guides
+  </button>
+</div>
+
+
+
+
+<!-- =========================================================
+   BLOGS GRID — 9 CARDS
+========================================================= -->
+<section style="padding:20px 0;">
+  <div id="blogContainer"
+    style="
+      max-width:1250px;
+      margin:0 auto;
+      display:flex;
+      flex-wrap:wrap;
+      gap:35px;
+      justify-content:center;
+      padding:20px;
+      font-family:Arial, sans-serif;
+    ">
+
+    <!-- TEMPLATE BLOG CARD -->
+    <style>
+      .blog-card{
+        flex:1 1 320px;
+        max-width:350px;
+        background:white;
+        border-radius:22px;
+        overflow:hidden;
+        box-shadow:0 10px 25px rgba(0,0,0,0.08);
+        transition:.35s;
+        cursor:pointer;
+        display:flex;
+        flex-direction:column;
+      }
+      .blog-card:hover{
+        transform:translateY(-10px);
+        box-shadow:0 22px 45px rgba(0,0,0,0.15);
+      }
+      .blog-img{
+        width:100%;
+        height:220px;
+        object-fit:cover;
+      }
+      .blog-content{
+        padding:22px;
+        display:flex;
+        flex-direction:column;
+        height:240px;
+      }
+      .blog-category{
+        color:#1a73e8;
+        font-size:14px;
+        font-weight:700;
+      }
+      .blog-title{
+        font-size:20px;
+        font-weight:800;
+        margin:8px 0;
+        min-height:48px;
+        line-height:1.3;
+      }
+      .blog-text{
+        font-size:15px;
+        color:#555;
+        line-height:1.6;
+        min-height:42px;
+      }
+      .blog-more{
+        margin-top:auto;
+        color:#1a73e8;
+        font-weight:700;
+        text-decoration:none;
+      }
+      @media(max-width:768px){
+        .blog-card{ max-width:100%; }
+        .blog-content{ height:auto; }
+      }
+    </style>
+
+
+    <!-- BLOG 1 -->
+    <div class="blog-card troubleshooting">
+      <img class="blog-img" src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Troubleshooting</span>
+        <h3 class="blog-title">Fix Printer Offline Issue – Full Guide</h3>
+        <p class="blog-text">Quick steps to bring your printer online instantly.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- BLOG 2 -->
+    <div class="blog-card security">
+      <img class="blog-img" src="https://images.pexels.com/photos/5380665/pexels-photo-5380665.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Security</span>
+        <h3 class="blog-title">Top Ways to Protect Devices From Malware</h3>
+        <p class="blog-text">Learn essential techniques for safe browsing.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- BLOG 3 -->
+    <div class="blog-card guides">
+      <img class="blog-img" src="https://images.pexels.com/photos/4792729/pexels-photo-4792729.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Guides</span>
+        <h3 class="blog-title">How to Install Printer Drivers Easily</h3>
+        <p class="blog-text">Follow this smooth step-by-step guide.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- BLOG 4 -->
+    <div class="blog-card troubleshooting">
+      <img class="blog-img" src="https://images.pexels.com/photos/4974912/pexels-photo-4974912.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Troubleshooting</span>
+        <h3 class="blog-title">Boost Laptop Speed with Simple Fixes</h3>
+        <p class="blog-text">Remove lag and improve performance fast.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- BLOG 5 -->
+    <div class="blog-card printer">
+      <img class="blog-img" src="https://images.pexels.com/photos/3945633/pexels-photo-3945633.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Printer</span>
+        <h3 class="blog-title">Wireless Printer Setup Guide</h3>
+        <p class="blog-text">Learn how to connect your printer to WiFi.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- BLOG 6 -->
+    <div class="blog-card security">
+      <img class="blog-img" src="https://images.pexels.com/photos/5380595/pexels-photo-5380595.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Security</span>
+        <h3 class="blog-title">How Hackers Access Your System</h3>
+        <p class="blog-text">Common techniques used by attackers.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- BLOG 7 -->
+    <div class="blog-card guides">
+      <img class="blog-img" src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Guides</span>
+        <h3 class="blog-title">Must-Know PC Optimization Tips</h3>
+        <p class="blog-text">Improve speed, storage & system health.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- BLOG 8 -->
+    <div class="blog-card printer">
+      <img class="blog-img" src="https://images.pexels.com/photos/4114715/pexels-photo-4114715.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Printer</span>
+        <h3 class="blog-title">Common Printing Errors Solved</h3>
+        <p class="blog-text">Easy fixes for frequent problems.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+    <!-- BLOG 9 -->
+    <div class="blog-card security">
+      <img class="blog-img" src="https://images.pexels.com/photos/5380642/pexels-photo-5380642.jpeg?auto=compress&h=350">
+      <div class="blog-content">
+        <span class="blog-category">Security</span>
+        <h3 class="blog-title">Signs Your PC Might Be Hacked</h3>
+        <p class="blog-text">Warning symptoms you should never ignore.</p>
+        <a class="blog-more">Read More →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+<!-- =========================================================
+   SEARCH + FILTER SCRIPT
+========================================================= -->
+<script>
+function filterBlogs(category){
+  let cards = document.querySelectorAll(".blog-card");
+  document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active"));
+  
+  event.target.classList.add("active");
+
+  cards.forEach(card => {
+    if(category === "all" || card.classList.contains(category)){
+      card.style.display = "flex";
+    } else {
+      card.style.display = "none";
+    }
+  });
+}
+
+function searchBlogs(){
+  let input = document.getElementById("searchBar").value.toLowerCase();
+  let cards = document.querySelectorAll(".blog-card");
+
+  cards.forEach(card => {
+    let title = card.querySelector(".blog-title").textContent.toLowerCase();
+    let text = card.querySelector(".blog-text").textContent.toLowerCase();
+
+    if(title.includes(input) || text.includes(input)){
+      card.style.display = "flex";
+    } else {
+      card.style.display = "none";
+    }
+  });
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ====================== FOOTER (4 COLUMNS) ====================== -->
+<footer style="background:#222529; padding:55px 0 30px; color:white;">
+  <div class="container" style="max-width:1140px;">
+    
+    <div class="row">
+
+      <!-- COL 1: BRAND INFO -->
+      <div class="col-lg-3 col-md-6" style="margin-bottom:20px;">
+        <h4>Techsekure</h4>
+        <div style="width:70px; height:3px; background:linear-gradient(90deg,#00C6FF,#0072FF); margin:10px 0;"></div>
+
+        <p style="color:#ccc;">
+          Your trusted source for printer drivers and assistance.
+        </p>
+
+        <p style="color:#bbb; font-size:14px; margin-top:10px;">
+          Providing dependable printer solutions with expert guidance available around the clock.
+        </p>
+      </div>
+
+      <!-- COL 2: QUICK LINKS -->
+      <div class="col-lg-3 col-md-6" style="margin-bottom:20px;">
+        <h4>Quick Links</h4>
+        <div style="width:70px; height:3px; background:linear-gradient(90deg,#00C6FF,#0072FF); margin:10px 0;"></div>
+
+        <a href="/index.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Home</a>
+
+        <a href="/about.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">About</a>
+
+        <a href="/services.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Services</a>
+
+        <a href="/blogs.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Blogs</a>
+
+        <a href="/contacts.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Contact</a>
+      </div>
+
+      <!-- COL 3: LEGAL -->
+      <div class="col-lg-3 col-md-6" style="margin-bottom:20px;">
+        <h4>Legal Info</h4>
+        <div style="width:70px; height:3px; background:linear-gradient(90deg,#00C6FF,#0072FF); margin:10px 0;"></div>
+
+        <a href="./terms-and-conditions.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Terms & Conditions</a>
+
+        <a href="./privacy-policy.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Privacy Policy</a>
+
+        <a href="./refund.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Refund Policy</a>
+
+        <a href="./disclaimer.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Disclaimer</a>
+      </div>
+
+      <!-- COL 4: CONTACT -->
+      <div class="col-lg-3 col-md-6" style="margin-bottom:20px;">
+        <h4>Contact Us</h4>
+        <div style="width:70px; height:3px; background:linear-gradient(90deg,#00C6FF,#0072FF); margin:10px 0;"></div>
+
+        <p style="color:#ccc;">📞 +1 (877) 496-7174</p>
+        <p style="color:#ccc;">✉️ info@techsekure.shop</p>
+        <p style="color:#bbb; font-size:14px;">
+           
+        </p>
+      </div>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div style="margin-top:25px; text-align:center; color:#ccc; font-size:14px;">
+      © 2026 Techsekure. All Rights Reserved
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

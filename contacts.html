@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Techsekure – Printer Drivers & Assistance</title>
+ <script src="//code.jivosite.com/widget/CXmX6RkZyD" async></script>
+<link rel="icon" href="fav.png" type="image/x-icon" />
+  
+
+  <!-- Bootstrap for grid layout -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body style="margin:0; padding:0; background:#f5f5f5; font-family:Arial, sans-serif;">
+
+
+<!-- ====================== HEADER ====================== -->
+<header style="background:#222529; padding:15px 0; position:sticky; top:0; z-index:999;">
+  <div class="container" style="max-width:1140px; display:flex; align-items:center; justify-content:space-between;">
+
+        <!-- LOGO (White default + gradient hover) -->
+    <a href="/index.html" id="logo"
+   style="display:flex; align-items:center; text-decoration:none;">
+  
+  <img src="./images/logo.png"
+       alt="Techsekure Logo"
+       style="
+         height:40px;
+         width:auto;
+         display:block;
+         transition:0.3s;
+       ">
+</a>
+
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        const logo = document.getElementById("logo");
+
+        logo.onmouseover = () => {
+          logo.style.background = "linear-gradient(90deg,#00C6FF,#0072FF)";
+          logo.style.webkitBackgroundClip = "text";
+          logo.style.color = "transparent";
+        };
+
+        logo.onmouseout = () => {
+          logo.style.background = "none";
+          logo.style.color = "white";
+        };
+      });
+    </script>
+
+    <!-- NAV MENU -->
+    <nav class="d-none d-lg-flex" style="align-items:center;">
+
+      <a href="/index.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">Home</a>
+
+      <a href="/about.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">About</a>
+
+      <a href="/services.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">Services</a>
+
+      <a href="/blogs.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">Blogs</a>
+
+      <a href="/contacts.html" style="margin:0 16px; font-size:16px; color:#ddd; text-decoration:none; transition:0.3s;"
+         onmouseover="this.style.color='#00C6FF'; this.style.transform='translateY(-3px)'"
+         onmouseout="this.style.color='#ddd'; this.style.transform='translateY(0)'">Contact</a>
+
+      <!-- PHONE -->
+      <span style="color:#00C6FF; font-weight:600; margin-left:22px;">+1 (877) 496-7174
+</span>
+    </nav>
+
+    <!-- MOBILE MENU ICON -->
+    <div class="d-lg-none" onclick="toggleMenu()" style="font-size:28px; color:white; cursor:pointer;">☰</div>
+
+  </div>
+
+  <!-- MOBILE MENU -->
+  <div id="mobileMenu" style="display:none; background:#1b1d20; padding:15px;">
+    <a href="/index.html" style="display:block; padding:10px; color:#ddd;">Home</a>
+    <a href="/about.html" style="display:block; padding:10px; color:#ddd;">About</a>
+    <a href="/services.html" style="display:block; padding:10px; color:#ddd;">Services</a>
+    <a href="/blogs.html" style="display:block; padding:10px; color:#ddd;">Blogs</a>
+    <a href="/contacts.html" style="display:block; padding:10px; color:#ddd;">Contact</a>
+
+    <div style="margin-top:10px; color:#00C6FF; font-weight:600;">+1 (877) 496-7174
+</div>
+  </div>
+</header>
+
+<script>
+  function toggleMenu(){
+    let m = document.getElementById("mobileMenu");
+    m.style.display = (m.style.display === "block") ? "none" : "block";
+  }
+</script>
+
+
+
+
+
+
+<!-- ===============================================
+     CONTACT PAGE — FULL PREMIUM VERSION
+================================================ -->
+
+<!-- PAGE HERO -->
+<section style="
+  padding:100px 20px;
+  background:linear-gradient(135deg,#1a1f35,#0b0e16);
+  color:white;
+  text-align:center;
+  font-family:Arial, sans-serif;
+">
+  <h1 style="font-size:50px; font-weight:900; margin-bottom:15px;">
+    Contact TechSekure Assistance
+  </h1>
+
+  <p style="
+    max-width:760px; margin:0 auto;
+    font-size:18px; color:#d0d4e3;
+    line-height:1.7;
+  ">
+    We're here 24/7 to help with fast, secure and reliable assistance for all your tech needs.
+  </p>
+</section>
+
+
+
+<!-- ===============================================
+     CONTACT GRID (LEFT CONTENT + RIGHT FORM)
+================================================ -->
+<section style="
+  padding:70px 20px;
+  background:#f4f7ff;
+  font-family:Arial, sans-serif;
+">
+  <div style="
+    max-width:1100px;
+    margin:0 auto;
+    display:flex;
+    flex-wrap:wrap;
+    gap:35px;
+    justify-content:center;
+  ">
+
+    <!-- LEFT SIDE — CONTACT INFO + DESCRIPTION -->
+    <div style="
+      flex:1 1 410px;
+      background:#ffffff;
+      padding:35px;
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      border:1px solid #e6eaf3;
+    ">
+
+      <h2 style="font-size:32px; font-weight:800; margin-bottom:12px; color:#0b1127;">
+        Get in Touch
+      </h2>
+
+      <p style="
+        font-size:16px; color:#555; line-height:1.7;
+        margin-bottom:22px;
+      ">
+        Have questions, need assistance, or require technical help?  
+        Our specialists are here to guide you with safe, secure, and reliable assistance.  
+        Reach out anytime — we respond quickly.
+      </p>
+
+      <!-- Contact Items -->
+      <div style="display:flex; flex-direction:column; gap:22px; margin-top:10px;">
+
+        <!-- Phone -->
+        <div style="display:flex; align-items:center; gap:14px;">
+          <div style="
+            width:48px; height:48px;
+            background:#1a73e8;
+            color:white;
+            border-radius:14px;
+            display:flex; justify-content:center; align-items:center;
+            font-size:22px;
+          ">📞</div>
+          <div>
+            <strong style="font-size:15px;">Call Us</strong><br>
+            <span style="color:#444;">+1 (877) 496-7174
+</span>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div style="display:flex; align-items:center; gap:14px;">
+          <div style="
+            width:48px; height:48px;
+            background:#7f5bff;
+            color:white;
+            border-radius:14px;
+            display:flex; justify-content:center; align-items:center;
+            font-size:22px;
+          ">📧</div>
+          <div>
+            <strong style="font-size:15px;">Email</strong><br>
+            <span style="color:#444;">info@techsekure.com</span>
+          </div>
+        </div>
+
+        <!-- Live Chat -->
+        <div style="display:flex; align-items:center; gap:14px;">
+          <div style="
+            width:48px; height:48px;
+            background:#00b894;
+            color:white;
+            border-radius:14px;
+            display:flex; justify-content:center; align-items:center;
+            font-size:22px;
+          ">💬</div>
+          <div>
+            <strong style="font-size:15px;">Live Chat assistance</strong><br>
+            <span style="color:#444;">Instant 24×7 Expert Assistance</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- CTA Buttons -->
+      <div style="margin-top:30px; display:flex; gap:14px; flex-wrap:wrap;">
+        <a onclick="if(window.jivo_api){jivo_api.open();}"
+           style="
+             padding:12px 22px;
+             background:#1a73e8;
+             color:white;
+             border-radius:10px;
+             font-weight:700;
+             text-decoration:none;
+           ">
+          Start Live Chat
+        </a>
+
+        <a href="javascript:void(0)"
+   onclick="if (window.jivo_api) { jivo_api.open(); }"
+   style="padding:13px 26px;
+          background:linear-gradient(135deg,#0072ff,#00c6ff);
+          border-radius:14px;
+          color:#fff;
+          font-weight:800;
+          font-size:16px;
+          text-decoration:none;
+          cursor:pointer;">
+ Get Assistance
+</a>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- RIGHT SIDE — SEND MESSAGE FORM -->
+    <div style="
+      flex:1 1 410px;
+      background:#ffffff;
+      padding:35px;
+      border-radius:20px;
+      box-shadow:0 10px 30px rgba(0,0,0,0.08);
+      border:1px solid #e6eaf3;
+    ">
+
+      <h2 style="font-size:32px; font-weight:800; margin-bottom:16px; color:#0b1127;">
+        Send a Message
+      </h2>
+
+      <form style="display:flex; flex-direction:column; gap:18px;">
+
+        <input type="text" placeholder="Full Name" style="
+          width:100%; padding:12px;
+          border-radius:10px; border:1px solid #ccd3e0;
+          font-size:15px;
+        ">
+
+        <input type="email" placeholder="Email Address" style="
+          width:100%; padding:12px;
+          border-radius:10px; border:1px solid #ccd3e0;
+          font-size:15px;
+        ">
+
+        <input type="text" placeholder="Phone Number" style="
+          width:100%; padding:12px;
+          border-radius:10px; border:1px solid #ccd3e0;
+          font-size:15px;
+        ">
+
+        <textarea rows="4" placeholder="Write your message here..." style="
+          width:100%; padding:12px;
+          border-radius:10px; border:1px solid #ccd3e0;
+          font-size:15px; resize:none;
+        "></textarea>
+
+        <button style="
+          padding:14px;
+          background:#1a73e8;
+          color:white;
+          border:none; border-radius:10px;
+          font-size:17px;
+          font-weight:800;
+          cursor:pointer;
+        ">
+          Send Message
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- ================================
+      PREMIUM CTA SECTION
+================================ -->
+<section style="
+  padding:70px 20px;
+  background:linear-gradient(135deg,#1a73e8,#0a3c97);
+  font-family:Arial, sans-serif;
+">
+  <div style="
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:40px;
+  ">
+
+    <!-- LEFT CONTENT -->
+    <div style="flex:1 1 420px; color:white;">
+      <h2 style="
+        font-size:38px;
+        font-weight:800;
+        margin-bottom:15px;
+        line-height:1.2;
+      ">
+        Need Help Right Now?
+      </h2>
+
+      <p style="
+        font-size:18px;
+        line-height:1.6;
+        color:#e9efff;
+        margin-bottom:28px;
+      ">
+        Our experts are online 24×7—ready to assist instantly with troubleshooting,
+        device issues, and secure tech assistance.
+      </p>
+
+      <a href="#"
+         onclick="if(window.jivo_api){jivo_api.open();}"
+         style="
+           background:white;
+           padding:14px 34px;
+           color:#1a73e8;
+           border-radius:40px;
+           text-decoration:none;
+           font-size:18px;
+           font-weight:700;
+           display:inline-block;
+           box-shadow:0 8px 25px rgba(0,0,0,0.25);
+         ">
+        Chat With an Expert
+      </a>
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div style="flex:1 1 380px; text-align:center;">
+      <img 
+        src="https://cdn-icons-png.flaticon.com/512/9466/9466972.png"
+        alt="Customer Support Girl"
+        style="
+          width:100%;
+          max-width:330px;
+          border-radius:20px;
+          filter:drop-shadow(0 15px 35px rgba(0,0,0,0.35));
+        ">
+    </div>
+
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ====================== FOOTER (4 COLUMNS) ====================== -->
+<footer style="background:#222529; padding:55px 0 30px; color:white;">
+  <div class="container" style="max-width:1140px;">
+    
+    <div class="row">
+
+      <!-- COL 1: BRAND INFO -->
+      <div class="col-lg-3 col-md-6" style="margin-bottom:20px;">
+        <h4>Techsekure</h4>
+        <div style="width:70px; height:3px; background:linear-gradient(90deg,#00C6FF,#0072FF); margin:10px 0;"></div>
+
+        <p style="color:#ccc;">
+          Your trusted source for printer drivers and assistance.
+        </p>
+
+        <p style="color:#bbb; font-size:14px; margin-top:10px;">
+          Providing dependable printer solutions with expert guidance available around the clock.
+        </p>
+      </div>
+
+      <!-- COL 2: QUICK LINKS -->
+      <div class="col-lg-3 col-md-6" style="margin-bottom:20px;">
+        <h4>Quick Links</h4>
+        <div style="width:70px; height:3px; background:linear-gradient(90deg,#00C6FF,#0072FF); margin:10px 0;"></div>
+
+        <a href="/index.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Home</a>
+
+        <a href="/about.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">About</a>
+
+        <a href="/services.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Services</a>
+
+        <a href="/blogs.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Blogs</a>
+
+        <a href="/contacts.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Contact</a>
+      </div>
+
+      <!-- COL 3: LEGAL -->
+      <div class="col-lg-3 col-md-6" style="margin-bottom:20px;">
+        <h4>Legal Info</h4>
+        <div style="width:70px; height:3px; background:linear-gradient(90deg,#00C6FF,#0072FF); margin:10px 0;"></div>
+
+        <a href="./terms-and-conditions.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Terms & Conditions</a>
+
+        <a href="./privacy-policy.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Privacy Policy</a>
+
+        <a href="./refund.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Refund Policy</a>
+
+        <a href="./disclaimer.html" style="display:block; color:#ccc; margin-bottom:8px;"
+           onmouseover="this.style.color='#00C6FF'" onmouseout="this.style.color='#ccc'">Disclaimer</a>
+      </div>
+
+      <!-- COL 4: CONTACT -->
+      <div class="col-lg-3 col-md-6" style="margin-bottom:20px;">
+        <h4>Contact Us</h4>
+        <div style="width:70px; height:3px; background:linear-gradient(90deg,#00C6FF,#0072FF); margin:10px 0;"></div>
+
+        <p style="color:#ccc;">📞 +1 (877) 496-7174</p>
+        <p style="color:#ccc;">✉️ info@techsekure.shop</p>
+        <p style="color:#bbb; font-size:14px;">
+           
+        </p>
+      </div>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div style="margin-top:25px; text-align:center; color:#ccc; font-size:14px;">
+      © 2026 Techsekure. All Rights Reserved
+    </div>
+
+  </div>
+</footer>
+
+
+
+
+</body>
+</html>

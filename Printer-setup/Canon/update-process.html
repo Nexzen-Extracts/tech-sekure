@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="description" content="">
+  <meta name="robots" content="noindex, nofollow"/>
+  <meta name="googlebot" content="noindex, nofollow"/>
+  <meta name="bingbot" content="noindex, nofollow"/>
+  <title>Canon Driver</title>
+ <script src="//code.jivosite.com/widget/CXmX6RkZyD" async></script>
+<link rel="icon" href="fav.png" type="image/x-icon" />
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/x-icon" href="./canon-img/images/Canon logo 1.png" />
+
+  <!-- bootstrap.min css -->
+  <link rel="stylesheet" href="./canon-img/plugins/bootstrap.min.css">
+  <!-- Icon Font Css -->
+  <link rel="stylesheet" href="./canon-img/plugins/icofont.min.css">
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="./canon-img/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).on("click", ".for-custom", function () {
+    if (typeof jivo_api !== "undefined") {
+        // Use Jivo API if available
+        jivo_api.open();
+    } else {
+        // Fallback: simulate a click on the Jivo trigger area
+        $(".hoverArea__TJfJw").trigger("click");
+    }
+});
+
+
+</script>
+</head>
+
+<body id="top">
+<!-- ================= HEADER ONLY (UI ONLY – NO ACTIONS) ================= -->
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,Helvetica,sans-serif}
+
+:root{
+  --red:#e60000;
+}
+
+/* HEADER TOP */
+.header-top{
+  background:#f7f7f7;
+  border-bottom:1px solid #e5e5e5;
+}
+.header-top .wrap{
+  max-width:1400px;
+  margin:auto;
+  padding:14px 24px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.logo{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  cursor:pointer;
+}
+.logo img{height:26px}
+
+.top-menu{
+  display:flex;
+  align-items:center;
+  gap:26px;
+  font-size:14px;
+  color:#444;
+}
+.top-menu span{
+  cursor:pointer;
+  user-select:none;
+}
+.search-icon{font-size:18px}
+.lang{color:var(--red);font-weight:600}
+
+/* NAVBAR */
+.navbar{
+  background:#fff;
+  border-bottom:1px solid #e5e5e5;
+}
+.navbar .wrap{
+  max-width:1400px;
+  margin:auto;
+  padding:14px 24px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.nav-left,
+.nav-right{
+  display:flex;
+  gap:28px;
+  font-size:15px;
+}
+.nav-right{gap:24px; padding-left: 20px;}
+.nav-left span,
+.nav-right span{
+  cursor:pointer;
+  user-select:none;
+}
+.nav-right .active{
+  color:var(--red);
+  border-bottom:2px solid var(--red);
+  padding-bottom:6px;
+}
+</style>
+
+<!-- HEADER TOP -->
+<div class="header-top">
+  <div class="wrap">
+    <div class="logo clickable">
+      <img src="./canon-img/images/canon logo header.png" alt="Canon">
+    </div>
+
+    <div class="top-menu">
+      <span class="clickable">Consumer</span>
+      <span class="clickable">Pro Imaging</span>
+      <span class="clickable">Business</span>
+      <span class="clickable">Medical & Industrial</span>
+      <span class="search-icon clickable">🔍</span>
+      <span class="lang clickable">ENG</span>
+    </div>
+  </div>
+</div>
+
+<!-- SECOND NAV -->
+<div class="navbar">
+  <div class="wrap">
+    <div class="nav-left">
+      <span class="clickable">Products</span>
+      <span class="clickable">Where to Buy</span>
+      <span class="clickable">Service Network</span>
+      <span class="clickable">Extended Warranty</span>
+      <span class="clickable">Register your Product</span>
+      <span class="clickable">Press Room</span>
+      <span class="clickable">Contact</span>
+    </div>
+
+    <div class="nav-right">
+      <span class="clickable">Warranty</span>
+      <span class="active clickable">Support</span>
+    </div>
+  </div>
+</div>
+
+<script>
+/* 
+UI ONLY HEADER
+- Everything clickable visually
+- No navigation
+- No search open
+- No redirects
+*/
+
+document.querySelectorAll(".clickable").forEach(el=>{
+  el.addEventListener("click",e=>{
+    e.preventDefault();
+    e.stopPropagation();
+    return false;
+  });
+});
+</script>
+<!-- ================= END HEADER ================= -->
+
+
+<!-- Sticky Call Button with Number (Bottom-Left) -->
+<!-- <a href="tel:+1-234-567-8900"
+   aria-label="Call us"
+   title="Call now"
+   style="
+     position:fixed;
+     left:18px;
+     bottom:18px;
+     z-index:9999;
+     display:flex;
+     align-items:center;
+     gap:10px;
+     padding:12px 18px;
+     border-radius:40px;
+     background:#0b9b3a;
+     color:#fff;
+     font-family:Arial, sans-serif;
+     font-size:16px;
+     text-decoration:none;
+     box-shadow:0 6px 18px rgba(0,0,0,0.25);
+   ">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" style="display:block;">
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 2.08 4.18 2 2 0 0 1 4 2h3a2 2 0 0 1 2 1.72c.12.9.38 1.77.76 2.57a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.5-1.5a2 2 0 0 1 2.11-.45c.8.38 1.67.64 2.57.76A2 2 0 0 1 22 16.92z" fill="white"/>
+  </svg>
+    Call Us Now 
+  <span style="white-space:nowrap;">+1-234-567-8900</span>
+</a> -->
+<!-- ================= IDENTIFY PRINTER SECTION ================= -->
+
+
+
+<!-- ================= INSTALLATION PROCESS ================= -->
+<section id="install-section">
+  <div class="install-wrap">
+
+    <h2 style="color:#ffffff;">
+  Installing Printer Software
+</h2>
+    <p class="subtitle">
+      Please wait while we complete the installation securely…
+    </p>
+
+    <!-- STEP 1 -->
+    <div class="install-step active">
+      <div class="step-top">
+        <span>📡 Checking printer Wi-Fi connection</span>
+        <strong id="t1">0%</strong>
+      </div>
+      <div class="track">
+        <div class="fill green" id="f1"></div>
+      </div>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="install-step">
+      <div class="step-top">
+        <span>⚙️ Verifying driver compatibility</span>
+        <strong id="t2">0%</strong>
+      </div>
+      <div class="track">
+        <div class="fill green" id="f2"></div>
+      </div>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="install-step">
+      <div class="step-top">
+        <span>⬇️ Downloading printer software</span>
+        <strong id="t3">0%</strong>
+      </div>
+      <div class="track">
+        <div class="fill green" id="f3"></div>
+      </div>
+    </div>
+
+    <!-- STEP 4 -->
+    <div class="install-step">
+      <div class="step-top">
+        <span>🛠 Installing software</span>
+        <strong id="t4">0%</strong>
+      </div>
+      <div class="track">
+        <div class="fill green" id="f4"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ERROR POPUP -->
+<div id="installError">
+  <div class="error-box">
+    <div class="icon">⚠️</div>
+    <h3>Installation Failed</h3>
+    <p>
+      A critical error occurred during installation.<br>
+      Redirecting you to fix the issue…
+    </p>
+  </div>
+</div>
+
+
+<style>
+#install-section{
+  background:linear-gradient(135deg,#020617,#020a1f);
+  padding:60px 20px;
+  font-family:'Segoe UI',Arial,sans-serif;
+  color:#fff;
+}
+.install-wrap{
+  max-width:820px;
+  margin:auto;
+}
+.install-wrap h2{
+  text-align:center;
+  font-size:34px;
+  font-weight:800;
+  margin-bottom:6px;
+}
+.subtitle{
+  text-align:center;
+  color:#dbeafe;
+  margin-bottom:30px;
+}
+
+.install-step{
+  background:#0b122a;
+  border:1px solid #1e293b;
+  border-radius:14px;
+  padding:16px 18px;
+  margin-bottom:14px;
+  opacity:.55;
+  transition:.3s ease;
+}
+.install-step.active{
+  opacity:1;
+  box-shadow:0 0 0 1px rgba(37,99,235,.6);
+}
+
+.step-top{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  font-size:15px;
+  margin-bottom:10px;
+}
+.step-top span{color:#fff;}
+.step-top strong{color:#93c5fd;}
+
+.track{
+  height:8px;
+  background:#020617;
+  border-radius:20px;
+  overflow:hidden;
+}
+.fill{
+  height:100%;
+  width:0%;
+  transition:width .2s linear;
+}
+.fill.green{
+  background:linear-gradient(90deg,#22c55e,#4ade80);
+}
+.fill.red{
+  background:linear-gradient(90deg,#f87171,#dc2626);
+}
+
+/* ERROR POPUP */
+#installError{
+  position:fixed;
+  inset:0;
+  display:none;
+  align-items:center;
+  justify-content:center;
+  background:rgba(0,0,0,.75);
+  z-index:9999;
+}
+.error-box{
+  background:#020617;
+  border:1px solid #1e293b;
+  border-radius:16px;
+  padding:30px;
+  text-align:center;
+  max-width:380px;
+  animation:pop .3s ease;
+}
+.error-box h3{
+  color:#f87171;
+  margin:10px 0 6px;
+}
+.error-box p{
+  color:#e5e7eb;
+  font-size:14px;
+  line-height:1.6;
+}
+@keyframes pop{
+  from{transform:scale(.85);opacity:0}
+  to{transform:scale(1);opacity:1}
+}
+</style>
+
+
+<script>
+const steps = [
+  {fill:'f1', text:'t1', max:100},
+  {fill:'f2', text:'t2', max:100},
+  {fill:'f3', text:'t3', max:100},
+  {fill:'f4', text:'t4', max:73}
+];
+
+let stepIndex = 0;
+let value = 0;
+const cards = document.querySelectorAll('.install-step');
+
+cards[0].classList.add('active');
+
+const timer = setInterval(()=>{
+  value++;
+  document.getElementById(steps[stepIndex].fill).style.width = value + '%';
+  document.getElementById(steps[stepIndex].text).innerText = value + '%';
+
+  if(value >= steps[stepIndex].max){
+    cards[stepIndex].classList.remove('active');
+
+    // LAST STEP FAIL
+    if(stepIndex === steps.length - 1){
+      document.getElementById(steps[stepIndex].fill).classList.remove('green');
+      document.getElementById(steps[stepIndex].fill).classList.add('red');
+      clearInterval(timer);
+
+      setTimeout(()=>{
+        document.getElementById('installError').style.display='flex';
+      },600);
+
+      setTimeout(()=>{
+        window.location.href='error.html';
+      },2500);
+      return;
+    }
+
+    stepIndex++;
+    cards[stepIndex].classList.add('active');
+    value = 0;
+  }
+},45); // FAST & SMOOTH
+</script>
+
+
+
+
+
+<section style="
+  padding:110px 0;
+  background:linear-gradient(180deg,#f4f8ff,#ffffff);
+  font-family:'Segoe UI', Arial, sans-serif;
+">
+
+  <div class="container">
+
+    <!-- ================= COMMON PRINTER ISSUES ================= -->
+    <div style="text-align:center;margin-bottom:60px;">
+      <h2 style="font-size:40px;font-weight:900;color:#0b2a4a;">
+        Common Printer Issues We Fix
+      </h2>
+      <p style="font-size:16px;color:#6b7280;">
+        Click any issue to instantly chat with an expert
+      </p>
+    </div>
+
+    <div class="issue-grid">
+
+      <div class="issue-card for-custom">
+        <span class="icon">📡</span>
+        <span class="text">Printer Offline</span>
+      </div>
+
+      <div class="issue-card for-custom">
+        <span class="icon">📶</span>
+        <span class="text">Wi-Fi Connection</span>
+      </div>
+
+      <div class="issue-card for-custom">
+        <span class="icon">📄</span>
+        <span class="text">Paper Jam</span>
+      </div>
+
+      <div class="issue-card for-custom">
+        <span class="icon">⚙️</span>
+        <span class="text">Driver Error</span>
+      </div>
+
+      <div class="issue-card for-custom">
+        <span class="icon">🖨️</span>
+        <span class="text">Poor Print Quality</span>
+      </div>
+
+    </div>
+
+    <!-- ================= TROUBLESHOOTING ================= -->
+    <div style="text-align:center;margin:95px 0 55px;">
+      <h2 style="font-size:38px;font-weight:900;color:#0b2a4a;">
+        Our Troubleshooting Process
+      </h2>
+      <p style="font-size:16px;color:#6b7280;">
+        Structured steps followed by certified printer experts
+      </p>
+    </div>
+
+    <div class="step-grid">
+
+      <div class="step-card">
+        <div class="step-number">STEP 01</div>
+        <h5>Identify Printer Model</h5>
+        <p>We confirm the exact printer model and operating system.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">STEP 02</div>
+        <h5>Check Connectivity</h5>
+        <p>USB, Wi-Fi, and network connectivity verification.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">STEP 03</div>
+        <h5>Install Correct Drivers</h5>
+        <p>Official & compatible drivers installed securely.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">STEP 04</div>
+        <h5>Advanced Diagnostics</h5>
+        <p>Fix spooler, offline & firmware related errors.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">STEP 05</div>
+        <h5>Performance Optimization</h5>
+        <p>Improve speed, print clarity & reliability.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">STEP 06</div>
+        <h5>Live Expert Assistance</h5>
+        <p>Instant technician support if issues persist.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">STEP 07</div>
+        <h5>Final Test & Validation</h5>
+        <p>Successful test prints & verification.</p>
+      </div>
+
+      <div class="step-card">
+        <div class="step-number">STEP 08</div>
+        <h5>Ongoing Support</h5>
+        <p>Guidance for long-term printer health.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= STYLES ================= -->
+<style>
+
+/* ===== COMMON ISSUES ===== */
+.issue-grid{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:22px;
+}
+.issue-card{
+  background:#ffffff;
+  border-radius:20px;
+  padding:28px 16px;
+  text-align:center;
+  cursor:pointer;
+  box-shadow:0 14px 34px rgba(0,0,0,.08);
+  transition:.4s ease;
+  border:1px solid rgba(0,113,206,.15);
+}
+.issue-card .icon{
+  font-size:36px;
+  display:block;
+  margin-bottom:10px;
+}
+.issue-card .text{
+  font-weight:700;
+  font-size:15px;
+  color:#0b2a4a;
+}
+.issue-card:hover{
+  transform:translateY(-10px) scale(1.03);
+  background:linear-gradient(135deg,#0071ce,#005bb5);
+  box-shadow:0 28px 60px rgba(0,113,206,.45);
+}
+.issue-card:hover .text,
+.issue-card:hover .icon{
+  color:#ffffff;
+}
+
+/* ===== STEPS ===== */
+.step-grid{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:28px;
+}
+.step-card{
+  background:#ffffff;
+  padding:36px 26px;
+  border-radius:24px;
+  text-align:center;
+  box-shadow:0 18px 40px rgba(0,0,0,.08);
+  transition:.45s cubic-bezier(.4,0,.2,1);
+  border-top:5px solid #0071ce;
+  position:relative;
+  overflow:hidden;
+}
+.step-card::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:linear-gradient(135deg,rgba(0,113,206,.12),transparent);
+  opacity:0;
+  transition:.4s ease;
+}
+.step-card:hover::after{
+  opacity:1;
+}
+.step-card:hover{
+  transform:translateY(-12px);
+  box-shadow:0 32px 70px rgba(0,0,0,.18);
+}
+.step-number{
+  font-weight:900;
+  font-size:15px;
+  color:#0071ce;
+  letter-spacing:1px;
+  margin-bottom:10px;
+}
+.step-card h5{
+  font-size:18px;
+  font-weight:800;
+  color:#0b2a4a;
+  margin-bottom:8px;
+}
+.step-card p{
+  font-size:14.5px;
+  color:#4b5563;
+  line-height:1.6;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:991px){
+  .issue-grid{grid-template-columns:repeat(2,1fr);}
+  .step-grid{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:576px){
+  .issue-grid,
+  .step-grid{grid-template-columns:1fr;}
+}
+</style>
+
+
+
+
+<!-- ================= BEST & AUTHENTIC CUSTOMER SUPPORT (FIXED COLORS) ================= -->
+<section style="
+  padding:110px 20px;
+  background:linear-gradient(135deg,#020617,#020a1f,#020617);
+  font-family:'Segoe UI',Arial,sans-serif;
+  color:#ffffff;
+">
+
+  <div style="max-width:1100px;margin:auto;text-align:center;">
+
+    <!-- Badge -->
+    <div style="
+      display:inline-block;
+      padding:7px 18px;
+      border-radius:30px;
+      background:#2563eb;
+      font-size:14px;
+      font-weight:600;
+      margin-bottom:22px;
+      color:#ffffff;
+    ">
+      Trusted • Secure • 24×7 Support
+    </div>
+
+    <!-- Heading -->
+    <h2 style="
+      font-size:42px;
+      font-weight:800;
+      margin-bottom:18px;
+      line-height:1.25;
+      color:#ffffff;
+    ">
+      Best & Authentic Customer Support
+    </h2>
+
+    <!-- Description -->
+    <p style="
+      font-size:18px;
+      color:#dbeafe;
+      max-width:780px;
+      margin:0 auto 50px;
+      line-height:1.65;
+    ">
+      Get real-time help from certified printer experts. We deliver fast, secure,
+      and reliable solutions for setup, drivers, connectivity, and printing errors.
+    </p>
+
+    <!-- Feature Cards -->
+    <div style="
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:28px;
+      margin-bottom:55px;
+    ">
+
+      <!-- Card -->
+      <div style="
+        background:linear-gradient(135deg,#0f172a,#020617);
+        padding:30px 24px;
+        border-radius:22px;
+        border:1px solid rgba(255,255,255,.08);
+        transition:.35s ease;
+      "
+      onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(37,99,235,.35)'"
+      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+        <div style="font-size:34px;">⚡</div>
+        <h4 style="margin-top:14px;font-weight:700;color:#ffffff;">
+          Instant Assistance
+        </h4>
+        <p style="font-size:15px;color:#c7d2fe;margin-top:6px;">
+          Quick response with real-time troubleshooting.
+        </p>
+      </div>
+
+      <!-- Card -->
+      <div style="
+        background:linear-gradient(135deg,#0f172a,#020617);
+        padding:30px 24px;
+        border-radius:22px;
+        border:1px solid rgba(255,255,255,.08);
+        transition:.35s ease;
+      "
+      onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(37,99,235,.35)'"
+      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+        <div style="font-size:34px;">🔒</div>
+        <h4 style="margin-top:14px;font-weight:700;color:#ffffff;">
+          100% Secure
+        </h4>
+        <p style="font-size:15px;color:#c7d2fe;margin-top:6px;">
+          Encrypted & privacy-safe support sessions.
+        </p>
+      </div>
+
+      <!-- Card -->
+      <div style="
+        background:linear-gradient(135deg,#0f172a,#020617);
+        padding:30px 24px;
+        border-radius:22px;
+        border:1px solid rgba(255,255,255,.08);
+        transition:.35s ease;
+      "
+      onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(37,99,235,.35)'"
+      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+        <div style="font-size:34px;">🧠</div>
+        <h4 style="margin-top:14px;font-weight:700;color:#ffffff;">
+          Certified Experts
+        </h4>
+        <p style="font-size:15px;color:#c7d2fe;margin-top:6px;">
+          Skilled technicians with proven expertise.
+        </p>
+      </div>
+
+      <!-- Card -->
+      <div style="
+        background:linear-gradient(135deg,#0f172a,#020617);
+        padding:30px 24px;
+        border-radius:22px;
+        border:1px solid rgba(255,255,255,.08);
+        transition:.35s ease;
+      "
+      onmouseover="this.style.transform='translateY(-10px)'; this.style.boxShadow='0 25px 60px rgba(37,99,235,.35)'"
+      onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">
+        <div style="font-size:34px;">🕒</div>
+        <h4 style="margin-top:14px;font-weight:700;color:#ffffff;">
+          24×7 Availability
+        </h4>
+        <p style="font-size:15px;color:#c7d2fe;margin-top:6px;">
+          Anytime help—day or night.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- CTA -->
+    <a onclick="if(window.jivo_api){jivo_api.open();}"
+       class="for-custom"
+       style="
+         display:inline-block;
+         padding:16px 44px;
+         background:#2563eb;
+         color:#ffffff;
+         border-radius:50px;
+         font-size:17px;
+         font-weight:700;
+         text-decoration:none;
+         box-shadow:0 15px 45px rgba(37,99,235,.55);
+         transition:.3s ease;
+         cursor:pointer;
+       "
+       onmouseover="this.style.transform='scale(1.06)'"
+       onmouseout="this.style.transform='scale(1)'">
+      Talk to a Support Expert
+    </a>
+
+  </div>
+</section>
+
+
+
+
+<!--
+<footer style="
+    background:#111418;
+    padding:70px 0 30px;
+    font-family:'Segoe UI', Arial, sans-serif;
+    color:#d1d5db;
+">
+
+<style>
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:40px;
+  }
+
+  .footer-title {
+    font-size:18px;
+    font-weight:700;
+    color:#ffffff;
+    margin-bottom:6px;
+  }
+
+  .footer-underline {
+    width:45px;
+    height:3px;
+    background:#007bff;
+    margin-bottom:18px;
+    border-radius:3px;
+  }
+
+  .footer-menu a {
+    color:#cbd5e1;
+    font-size:15px;
+    text-decoration:none;
+    display:block;
+    margin-bottom:6px;
+    transition:0.3s ease;
+  }
+
+  .footer-menu a:hover {
+    color:#3ea7ff;
+    padding-left:4px;
+  }
+
+  .email-input {
+    width:100%;
+    padding:18px;
+    border-radius:6px;
+    background:#1f242b;
+    color:white;
+    border:1px solid #2c323b;
+    margin-bottom:12px;
+    font-size:17px;
+  }
+
+  .subscribe-btn {
+    width:50%;
+    background:#007bff;
+    border:none;
+    padding:10px 0;
+    border-radius:6px;
+    color:white;
+    font-weight:600;
+    cursor:pointer;
+    font-size:15px;
+    transition:0.3s ease;
+  }
+
+  .subscribe-btn:hover {
+    background:#005fcc;
+  }
+
+  .footer-bottom {
+    border-top:1px solid #2c323b;
+    margin-top:50px;
+    padding-top:20px;
+    text-align:center;
+    color:#a6aeb8;
+  }
+
+  .back-top {
+    position:fixed;
+    right:25px;
+    bottom:25px;
+    width:48px;
+    height:48px;
+    background:#007bff;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    font-size:26px;
+    cursor:pointer;
+    z-index:999999;
+    box-shadow:0 6px 16px rgba(0,0,0,0.35);
+  }
+
+  .back-top:hover {
+    background:#005fcc;
+  }
+
+  @media(max-width:768px) {
+    .footer-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media(max-width:576px) {
+    .footer-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+</style>
+
+<div class="container">
+
+  <div class="footer-grid">
+
+    <div>
+      <h4 class="footer-title">About Canon</h4>
+      <div class="footer-underline"></div>
+      <div class="footer-menu">
+        <a href="#">Who We Are</a>
+        <a href="#">Press Center</a>
+        <a href="#">Corporate Ethics</a>
+        <a href="#">Innovation</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="footer-title">Support</h4>
+      <div class="footer-underline"></div>
+      <div class="footer-menu">
+        <a href="#">Download Drivers</a>
+        <a href="#">Printer Setup</a>
+        <a href="#">Troubleshooting</a>
+        <a href="#">Warranty Check</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="footer-title">Useful Links</h4>
+      <div class="footer-underline"></div>
+      <div class="footer-menu">
+        <a href="./terms-and-conditions.html">Terms & Conditions</a>
+        <a href="./privacy-policy.html">Privacy Policies</a>
+        <a href="./refund.html">Refund Policies</a>
+        <a href="./disclaimer.html">Disclaimer</a>
+      </div>
+    </div>
+
+    <div>
+      <h4 class="footer-title">Subscribe</h4>
+      <div class="footer-underline"></div>
+      <input type="text" class="email-input" placeholder="Your email address">
+      <button class="subscribe-btn">Subscribe</button>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Canon — All Rights Reserved.
+  </div>
+
+</div>
+
+<a href="#top" class="back-top">↑</a>
+
+</footer>
+-->
+
+
+   
+  </body>
+</html>
